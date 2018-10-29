@@ -9,8 +9,17 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
     <style>
-        body{margin: 0; padding: 0;}
-        #map{position: absolute; top: 0; bottom: 0; width: 100%;}
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -20,7 +29,28 @@
         mapboxgl.accessToken = '@Model.MapboxAccessToken';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v10'
+            style: 'mapbox://styles/mapbox/light-v9'
+        });
+
+        map.on('load', () => {
+            map.addSource("stadiums",
+                {
+                    type: "geojson",
+                    data: "?handler=stadiums"
+                });
+
+            map.addLayer({
+                id: 'stadium',
+                type: 'circle',
+                source: 'stadiums',
+                filter: ['!has', 'point_count'],
+                paint: {
+                    'circle-color': '#1EF008',
+                    'circle-radius': 6,
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': '#fff'
+                }
+            });
         });
     </script>
 </body>
