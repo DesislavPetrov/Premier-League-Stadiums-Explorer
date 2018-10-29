@@ -12543,11 +12543,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer.csproj",
+      "projectUniqueName": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer.csproj",
       "projectName": "PremierLeagueStadiumsExplorer",
-      "projectPath": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer.csproj",
+      "projectPath": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer.csproj",
       "packagesPath": "C:\\Users\\WinPC\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\PremierLeagueStadiumsExplorer\\obj\\",
+      "outputPath": "E:\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -7,8 +7,21 @@
     <meta charset='utf-8' />
     <title>Premier League Stadiums Explorer</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body{margin: 0; padding: 0;}
+        #map{position: absolute; top: 0; bottom: 0; width: 100%;}
+    </style>
 </head>
 <body>
-    <h1>Welcome to Airport Explorer!</h1>
+    <div id='map'></div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZ2VvY2FkZGVyIiwiYSI6ImNqanE2ejV1aTA3dXozcGxxaDRlcjVmN2wifQ.2Gpftu5ybKxj_MHfk56FLw';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v10'
+        });
+    </script>
 </body>
 </html>

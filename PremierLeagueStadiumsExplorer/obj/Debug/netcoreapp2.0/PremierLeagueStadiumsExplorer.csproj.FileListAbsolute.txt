@@ -9,3 +9,14 @@ E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\Premier
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.deps.json
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.json
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.dev.json
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.csprojResolveAssemblyReference.cache
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.csproj.CoreCompileInputs.cache
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfoInputs.cache
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
