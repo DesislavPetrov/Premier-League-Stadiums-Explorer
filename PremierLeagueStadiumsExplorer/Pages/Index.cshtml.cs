@@ -50,7 +50,7 @@ namespace PremierLeagueStadiumsExplorer.Pages
 
                     featureCollection.Features.Add(new Feature(
                         new Point(new Position(latitude, longitude)),
-                        new Dictionary<string, string>
+                        new Dictionary<string, object>
                         {
                             { "name", name},
                             { "city", city}
