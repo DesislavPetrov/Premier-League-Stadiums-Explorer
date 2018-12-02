@@ -36,10 +36,10 @@
 
         map.fitBounds([[
             -1.65,
-            53.16            
+            53.16
         ], [
                 1.23,
-                51.01            
+                51.01
         ]]);
 
 
@@ -106,6 +106,24 @@
                     'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
                     'text-size': 12
                 }
+            });
+
+            var popup = new mapboxgl.Popup({
+                closeButton: false,
+                closeOnClick: false
+            });
+
+            map.on('mouseenter', 'stadium', function (e) {
+                map.getCanvas().style.cursor = 'pointer';
+
+                popup.setLngLat(e.features[0].geometry.coordinates)
+                    .setHTML(e.features[0].properties.name)
+                    .addTo(map);
+            });
+
+            map.on('mouseleave', 'airport', function () {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
             });
         });
     </script>
