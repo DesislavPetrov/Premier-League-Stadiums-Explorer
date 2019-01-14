@@ -8,7 +8,10 @@
     <title>Premier League Stadiums Explorer</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <style>
+
         body {
             margin: 0;
             padding: 0;
@@ -24,6 +27,17 @@
 </head>
 <body>
     <div id='map'></div>
+    <div id="info-card" class="absolute pin-t pin-l mt-4 ml-4 rounded shadow-lg bg-white" style="max-width: 400px; display: none;">
+        <div>
+            <span class="absolute pin-t pin-r px-4 py-3">
+                <i id="info-card-close-button" class="fa fa-times" role="button" aria-hidden="true"></i>
+            </span>
+            <img class="" src="http://via.placeholder.com/400x200?text=No+Picture+Found" />
+        </div>
+        <div class="px-6 py-4">
+            <div id="stadium-name" class="font-bold text-l">Stadium Name goes here</div>
+        </div>
+    </div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
     <script>
         mapboxgl.accessToken = '@Model.MapboxAccessToken';
@@ -121,11 +135,27 @@
                     .addTo(map);
             });
 
-            map.on('mouseleave', 'airport', function () {
+            map.on('mouseleave', 'stadium', function () {
                 map.getCanvas().style.cursor = '';
                 popup.remove();
             });
+
+            map.on('click', 'stadium', e => {
+                var name = e.features[0].properties.name;
+                var city = e.features[0].properties.city;
+
+                // Display stadium info
+                document.querySelector('#stadium-name').innerText = name + " (" + city + ")";
+
+                // Ensure the info box is visible
+                document.querySelector('#info-card').style.display = '';
+            });
         });
+
+        document.querySelector('#info-card-close-button').addEventListener('click', function (event) {
+            document.querySelector('#info-card').style.display = 'none';
+        });
+
     </script>
 </body>
 </html>

@@ -20,3 +20,14 @@ E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Deb
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
 E:\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.deps.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.dev.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.csprojAssemblyReference.cache
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.csproj.CoreCompileInputs.cache
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfoInputs.cache
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
