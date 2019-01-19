@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PLStadiumsMap" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\My\ Home\ PC\\GitHub\\Premier-League-Stadiums-Explorer\\PremierLeagueStadiumsExplorer\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

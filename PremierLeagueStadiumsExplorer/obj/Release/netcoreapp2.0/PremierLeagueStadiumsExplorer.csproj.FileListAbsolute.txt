@@ -1,0 +1,12 @@
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.deps.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.runtimeconfig.dev.json
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\bin\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.csproj.CoreCompileInputs.cache
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfoInputs.cache
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Release\netcoreapp2.0\PremierLeagueStadiumsExplorer.csprojAssemblyReference.cache

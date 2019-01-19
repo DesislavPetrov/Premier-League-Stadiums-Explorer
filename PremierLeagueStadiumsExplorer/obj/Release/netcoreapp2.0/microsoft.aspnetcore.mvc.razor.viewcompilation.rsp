@@ -1,0 +1,6 @@
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=PremierLeagueStadiumsExplorer
+--content-root=C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer
+--file=C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\Pages\Index.cshtml
+--file=C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\Pages\_ViewImports.cshtml
