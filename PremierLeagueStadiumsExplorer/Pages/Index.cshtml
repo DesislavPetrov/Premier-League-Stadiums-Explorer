@@ -28,14 +28,31 @@
 <body>
     <div id='map'></div>
     <div id="info-card" class="absolute pin-t pin-l mt-4 ml-4 rounded shadow-lg bg-white" style="max-width: 400px; display: none;">
-        <div>
+        <div class="overflow-hidden" style="height:200px;">
             <span class="absolute pin-t pin-r px-4 py-3">
                 <i id="info-card-close-button" class="fa fa-times" role="button" aria-hidden="true"></i>
             </span>
-            <img class="" src="http://via.placeholder.com/400x200?text=No+Picture+Found" />
+            <img id="stadium-image" src="http://via.placeholder.com/400x200?text=Loading..." />
         </div>
         <div class="px-6 py-4">
             <div id="stadium-name" class="font-bold text-l">Stadium Name goes here</div>
+
+            <div id="more-info" class="mt-8">
+                <div class="flex mb-4">
+                    <div class="w-10"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div id="stadium-address" class="font-medium text-l mb-2 w-full"></div>
+                </div>
+
+                <div class="flex mb-4">
+                    <div class="w-10"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div id="stadium-phone" class="font-medium text-l mb-2 w-full"></div>
+                </div>
+
+                <div class="flex mb-4">
+                    <div class="w-10"><i class="fa fa-link" aria-hidden="true"></i></div>
+                    <a href=""><div id="stadium-website" class="font-medium text-l mb-2 w-full"></div></a>
+                </div>
+            </div>
         </div>
     </div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
@@ -142,13 +159,39 @@
 
             map.on('click', 'stadium', e => {
                 var name = e.features[0].properties.name;
-                var city = e.features[0].properties.city;
+                var club = e.features[0].properties.club;
+                var lat = e.features[0].geometry.coordinates[1];
+                var lng = e.features[0].geometry.coordinates[0];
 
                 // Display stadium info
-                document.querySelector('#stadium-name').innerText = name + " (" + city + ")";
+                document.querySelector('#stadium-name').innerText = name + " (" + club + ")";
+                document.querySelector('#stadium-image').src = 'http://via.placeholder.com/400x200?text=Loading...';
+
+                // Hide more info at first
+                document.querySelector('#more-info').style.display = 'none';
 
                 // Ensure the info box is visible
                 document.querySelector('#info-card').style.display = '';
+
+                fetch(`/?handler=stadiumdetail&name=${name}&latitude=${lat}&longitude=${lng}`)
+                    .then(blob => blob.json())
+                    .then(data => {
+                        // Set stadium properties
+                        if (data.photo)
+                            document.querySelector('#stadium-image').src = 'data:image/png;base64,' + data.photo;
+                        else
+                            document.querySelector('#stadium-image').src =
+                                'http://via.placeholder.com/400x200?text=No+Image+Found';
+                        document.querySelector('#stadium-address').innerText = data.formattedAddress || '-';
+                        document.querySelector('#stadium-phone').innerText = data.phoneNumber || '-';
+                        document.querySelector('#stadium-website').innerHTML = '<a href="' + data.website + '">' + data.website + '</a>' || '-';
+
+                        // display more info
+                        document.querySelector('#more-info').style.display = '';
+                    })
+                    .catch(error => {
+                        document.querySelector('#stadium-image').src = 'http://via.placeholder.com/400x200?text=Error+while+loading+data';
+                    });
             });
         });
 

@@ -31,3 +31,4 @@ C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplo
 C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.AssemblyInfo.cs
 C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.dll
 C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\PremierLeagueStadiumsExplorer.pdb
+C:\My Home PC\GitHub\Premier-League-Stadiums-Explorer\PremierLeagueStadiumsExplorer\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
