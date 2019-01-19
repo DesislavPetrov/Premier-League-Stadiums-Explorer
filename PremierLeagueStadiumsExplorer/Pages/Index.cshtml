@@ -66,18 +66,11 @@
         mapboxgl.accessToken = '@Model.MapboxAccessToken';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/light-v9',
-            center: [1.71, 52.31],
-            zoom: 13
+            style: 'mapbox://styles/geocadder/cjr3z8j5g62jj2sogodfzvtf9',
+            center: [-1.382085, 52.825895],
+            zoom: 6,
+            customAttribution: '<a target="_blank" href=http://www.geocadder.bg/en>geocadder</a>'
         });
-
-        map.fitBounds([[
-            -1.65,
-            53.16
-        ], [
-                1.23,
-                51.01
-        ]]);
 
 
         var nav = new mapboxgl.NavigationControl();
