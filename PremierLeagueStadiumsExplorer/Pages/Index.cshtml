@@ -27,6 +27,11 @@
 </head>
 <body>
     <div id='map'></div>
+
+    <div class="absolute pin-t pin-r w-1/5 mt-4 mr-4">
+        <input type="search" id="address-input" placeholder="Search..." />
+    </div>
+
     <div id="info-card" class="absolute pin-t pin-l mt-4 ml-4 rounded shadow-lg bg-white" style="max-width: 400px; display: none;">
         <div class="overflow-hidden" style="height:200px;">
             <span class="absolute pin-t pin-r px-4 py-3">
@@ -56,6 +61,7 @@
         </div>
     </div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
     <script>
         mapboxgl.accessToken = '@Model.MapboxAccessToken';
         var map = new mapboxgl.Map({
@@ -197,6 +203,18 @@
 
         document.querySelector('#info-card-close-button').addEventListener('click', function (event) {
             document.querySelector('#info-card').style.display = 'none';
+        });
+
+        var placesAutocomplete = places({
+            container: document.querySelector('#address-input'),
+            type: 'city'
+        });
+
+        placesAutocomplete.on('change', e => {
+            map.flyTo({
+                center: [e.suggestion.latlng.lng, e.suggestion.latlng.lat],
+                zoom: 9
+            });
         });
 
     </script>
